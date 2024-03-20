@@ -12,6 +12,13 @@ To familiarize yourself with the API usage please follow this link
 ## API Endpoint
 [Endpoint](https://api.gpt4all.pp.ua)
 
+## In future
+Claude Opus / Sonnet / Haiku
+
+GPT Vision
+
+Discounts on tariffs, raffles, adding lots of models
+
 ## Links
 [Telegram Channel](https://t.me/gpt4alltg)
 
