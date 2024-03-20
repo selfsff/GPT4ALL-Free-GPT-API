@@ -8,6 +8,8 @@ To familiarize yourself with the API usage please follow this link
 
 [Docs](https://docs.gpt4all.pp.ua)
 
+[How to receive a token](https://docs.gpt4all.pp.ua/main/receiving-a-api-token)
+
 ## Limits
 
 When you sign up, you will have free access to 4 dollars per month. You can spend them when using GPT 4, GPT 3.5 and other models. 
