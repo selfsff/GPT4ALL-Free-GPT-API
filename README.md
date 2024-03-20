@@ -29,6 +29,12 @@ Limit for /1v/image/generations:
 
 These limits are also subject to change
 
+## Plans
+|**Tier 1 (5$/month)**|**Tier 2 (10$/month)**|**Tier 3 (15$/month)**|
+|-----------------|------------------|------------------|
+|Balance 25$/month|Balance 70$/month |Balance 135$/month|
+|Access to premium models|Access to premium models|Access to premium models|Access to premium models
+
 ## Models
 ### OpenAI
 - gpt-4-vision-preview from tier 1 (in future)
