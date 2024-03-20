@@ -6,6 +6,7 @@
 
 We provide free access to the GPT-3.5-Turbo, GPT-4, GPT-4-Turbo and many other models.
 To familiarize yourself with the API usage please follow this link
+
 [Docs](https://docs.gpt4all.pp.ua)
 
 ## API Endpoint
@@ -13,5 +14,7 @@ To familiarize yourself with the API usage please follow this link
 
 ## Links
 [Telegram Channel](https://t.me/gpt4alltg)
+
 [Telegram bot](https://t.me/gpt4all_robot)
+
 [Docs](https://docs.gpt4all.pp.ua)
