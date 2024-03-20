@@ -29,24 +29,24 @@ These limits are also subject to change
 
 ## Models
 ### OpenAI
--gpt-4-vision-preview from tier 1 (in future)
--gpt-4-0125-preview from tier 1 (not stable)
--gpt-4-1106-preview
--gpt-4-32k
--gpt-4
--gpt-3.5-turbo-16k-1106
--gpt-3.5-turbo-16k-0613
--gpt-3.5-turbo-16k
--gpt-3.5-turbo-0125
--gpt-3.5-turbo-1106
--gpt-3.5-turbo-0613
--gpt-3.5-turbo
--dall-e-3
+- gpt-4-vision-preview from tier 1 (in future)
+- gpt-4-0125-preview from tier 1 (not stable)
+- gpt-4-1106-preview
+- gpt-4-32k
+- gpt-4
+- gpt-3.5-turbo-16k-1106
+- gpt-3.5-turbo-16k-0613
+- gpt-3.5-turbo-16k
+- gpt-3.5-turbo-0125
+- gpt-3.5-turbo-1106
+- gpt-3.5-turbo-0613
+- gpt-3.5-turbo
+- dall-e-3
 
 ### Open Source
--gemma-7b-it
--mixtral-8x7b
--llama2-70b
+- gemma-7b-it
+- mixtral-8x7b
+- llama2-70b
 
 ## API Endpoint
 [Endpoint](https://api.gpt4all.pp.ua)
