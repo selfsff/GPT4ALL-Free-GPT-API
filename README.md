@@ -49,7 +49,9 @@ These limits are also subject to change
 - llama2-70b
 
 ## API Endpoint
-[Endpoint](https://api.gpt4all.pp.ua)
+Endpoint
+
+https://api.gpt4all.pp.ua
 
 ## In future
 Claude Opus / Sonnet / Haiku
