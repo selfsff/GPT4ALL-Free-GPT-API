@@ -21,11 +21,11 @@ You can also buy tariffs, with which you will have access to limited models, as 
 ## Rate Limits
 Restriction for /1v/completions and /1v/chat/completions: 
 
-4 requests per second and 70 requests per minute 
+120 requests per minute 
 
 Limit for /1v/image/generations: 
 
-4 requests per second and 55 requests per minute 
+100 requests per minute 
 
 These limits are also subject to change
 
