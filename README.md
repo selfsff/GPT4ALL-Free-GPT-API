@@ -12,7 +12,7 @@ To familiarize yourself with the API usage please follow this link
 
 ## Limits
 
-When you sign up, you will have free access to 4 dollars per month. You can spend them when using GPT 4, GPT 3.5 and other models. 
+When you sign up, you will have **free access to 4 dollars per month.** You can spend them when using GPT 4, GPT 3.5 and other models. 
 
 But the prices for the models will be much lower than OpenAI and Anthropic. In the future there may be changes in price and starting balance, follow the news in our telegram channel. 
 
