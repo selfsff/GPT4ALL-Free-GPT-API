@@ -61,12 +61,70 @@ Endpoint
 
 https://api.gpt4all.pp.ua
 
-## In future
-Claude Opus / Sonnet / Haiku
+## Usage
+# Python
 
-GPT Vision
+Chat Completions
+```
+import requests
 
-Discounts on tariffs, raffles, adding lots of models
+def main():
+    data = {
+        "messages": [{"role": "user", "content": "Hello World!"}],
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.7, # Default is 0.7
+        "max_tokens": 1024, # Default is 512
+        "token": "YOUR_TOKEN"
+    }
+
+    response = requests.post("https://api.gpt4all.pp.ua/1v/chat/completions", json=data, verify=False)
+
+    return response.json()
+
+print(main())
+```
+
+Completions
+```
+import requests
+
+def main():
+    data = {
+        "prompt": "Hello World!",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.7, # Default is 0.7
+        "max_tokens": 1024, # Default is 512
+        "token": "YOUR_TOKEN"
+    }
+
+    response = requests.post("https://api.gpt4all.pp.ua/1v/completions", json=data, verify=False)
+
+    return response.json()
+
+print(main())
+```
+
+Images Generations
+```
+import requests
+import base64
+
+def main():
+
+    data = {
+        "prompt": "Cat",
+        "model": "dall-e-3",
+        "quality": "hd", # Default standart
+        "token": "YOUR_TOKEN"
+    }
+
+    response = requests.post("https://api.gpt4all.pp.ua/1v/images/generations", json=data, verify=False)
+
+    with open("imageToSave.png", "wb") as f:
+        f.write(base64.b64decode(response.json()))
+
+main()
+```
 
 ## Links
 [Telegram Channel](https://t.me/gpt4alltg)
