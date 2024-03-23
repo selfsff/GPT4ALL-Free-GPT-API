@@ -65,7 +65,7 @@ https://api.gpt4all.pp.ua
 # Python
 
 Chat Completions
-```
+``` Python
 import requests
 
 def main():
@@ -85,7 +85,7 @@ print(main())
 ```
 
 Completions
-```
+``` Python
 import requests
 
 def main():
@@ -105,7 +105,7 @@ print(main())
 ```
 
 Images Generations
-```
+``` Python
 import requests
 import base64
 
