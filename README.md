@@ -20,6 +20,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ## Rate Limits
 Limit for /1v/completions and /1v/chat/completions: 
+
 ***Free plan** 10 requests per minute* 
 
 ***Tier 1** 80 requests per minute* 
