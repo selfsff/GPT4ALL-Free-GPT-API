@@ -126,6 +126,7 @@ def main():
         "prompt": "Cat",
         "model": "dall-e-3",
         "quality": "hd", # Default standart
+        "format": "base64", # Default url
         "token": "YOUR_TOKEN"
     }
 
