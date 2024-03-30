@@ -50,7 +50,7 @@ These limits are also subject to change
 ## Models
 ### OpenAI
 - gpt-4-vision-preview from tier 1 (in future)
-- gpt-4-0125-preview from tier 1 (not stable)
+- gpt-4-0125-preview from tier 1
 - gpt-4-1106-preview
 - gpt-4-32k
 - gpt-4
