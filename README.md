@@ -91,26 +91,6 @@ def main():
 print(main())
 ```
 
-Completions
-``` Python
-import requests
-
-def main():
-    data = {
-        "prompt": "Hello World!",
-        "model": "gpt-3.5-turbo",
-        "temperature": 0.7, # Default is 0.7
-        "max_tokens": 1024, # Default is 512
-        "token": "YOUR_TOKEN"
-    }
-
-    response = requests.post("https://api.gpt4all.pp.ua/1v/completions", json=data, verify=False)
-
-    return response.json()
-
-print(main())
-```
-
 Images Generations
 ``` Python
 import requests
