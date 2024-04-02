@@ -29,6 +29,7 @@ Limit for /1v/completions and /1v/chat/completions:
 
 ***Tier 3** 480 requests per minute*
 
+
 Limit for /1v/image/generations: 
 
 ***Free plan** 6 requests per minute* 
@@ -38,6 +39,17 @@ Limit for /1v/image/generations:
 ***Tier 2** 200 requests per minute*
 
 ***Tier 3** 450 requests per minute*
+
+
+Limit for /1v/moderations: 
+
+***Free plan** 12 requests per minute*
+
+***Tier 1** 100 requests per minute* 
+
+***Tier 2** 240 requests per minute*
+
+***Tier 3** 500 requests per minute*
 
 These limits are also subject to change
 
@@ -55,8 +67,13 @@ These limits are also subject to change
 - gpt-4-32k
 - gpt-4
 - gpt-3.5-turbo-16k
+- gpt-3.5-turbo-0613
+- gpt-3.5-turbo-1106
+- gpt-3.5-turbo-0125
 - gpt-3.5-turbo
 - dall-e-3
+- text-moderation-latest (Free)
+- text-moderation-stable (Free)
 
 ### Open Source
 - gemma-7b-it
@@ -111,6 +128,25 @@ def main():
     with open("imageToSave.png", "wb") as f:
         f.write(base64.b64decode(response.json()))
 
+main()
+```
+
+Moderations
+``` Python
+import requests
+
+def main():
+
+    data = {
+        "message": "Hi",
+        "model": "text-moderation-latest",
+        "token": "YOUR_TOKEN"
+    }
+
+    response = requests.post("https://api.gpt4all.pp.ua/1v/moderations", json=data, verify=False)
+    
+    return response.json()
+    
 main()
 ```
 
