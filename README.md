@@ -19,7 +19,7 @@ But the prices for the models will be much lower than OpenAI and Anthropic. In t
 You can also buy tariffs, with which you will have access to limited models, as well as will be increased balance per month.
 
 ## Rate Limits
-Limit for /1v/completions and /1v/chat/completions: 
+Limit for /1v/chat/completions: 
 
 ***Free plan** 10 requests per minute* 
 
