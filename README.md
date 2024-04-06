@@ -23,40 +23,40 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ***Free plan** 10 requests per minute* 
 
-***Tier 1** 80 requests per minute* 
+***Tier 1** 100 requests per minute* 
 
-***Tier 2 220** requests per minute*
+***Tier 2 250** requests per minute*
 
-***Tier 3** 480 requests per minute*
+***Tier 3** 550 requests per minute*
 
 
 **Limit for /1v/image/generations:**
 
 ***Free plan** 6 requests per minute* 
 
-***Tier 1** 60 requests per minute*
+***Tier 1** 90 requests per minute*
 
-***Tier 2** 200 requests per minute*
+***Tier 2** 230 requests per minute*
 
-***Tier 3** 450 requests per minute*
+***Tier 3** 490 requests per minute*
 
 
 **Limit for /1v/moderations:**
 
-***Free plan** 12 requests per minute*
+***Free plan** 15 requests per minute*
 
-***Tier 1** 100 requests per minute* 
+***Tier 1** 140 requests per minute* 
 
-***Tier 2** 240 requests per minute*
+***Tier 2** 310 requests per minute*
 
-***Tier 3** 500 requests per minute*
+***Tier 3** 650 requests per minute*
 
 These limits are also subject to change
 
 ## Plans
 |**Tier 1 (5$/month)**|**Tier 2 (10$/month)**|**Tier 3 (15$/month)**|
 |-----------------|------------------|------------------|
-|Balance 25$/month|Balance 70$/month |Balance 135$/month|
+|Balance 30$/month|Balance 80$/month |Balance 150$/month|
 |Access to premium models|Access to premium models|Access to premium models|Access to premium models
 |Lower limits|Lower limits|Lower limits|Lower limits
 
