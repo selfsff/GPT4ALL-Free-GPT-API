@@ -19,7 +19,7 @@ But the prices for the models will be much lower than OpenAI and Anthropic. In t
 You can also buy tariffs, with which you will have access to limited models, as well as will be increased balance per month.
 
 ## Rate Limits
-**Limit for /1v/chat/completions:**
+**Limit for /v1/chat/completions:**
 
 ***Free plan** 10 requests per minute* 
 
@@ -30,7 +30,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 ***Tier 3** 550 requests per minute*
 
 
-**Limit for /1v/image/generations:**
+**Limit for /v1/image/generations:**
 
 ***Free plan** 6 requests per minute* 
 
@@ -41,7 +41,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 ***Tier 3** 490 requests per minute*
 
 
-**Limit for /1v/moderations:**
+**Limit for /v1/moderations:**
 
 ***Free plan** 15 requests per minute*
 
