@@ -102,7 +102,7 @@ def main():
         "token": "YOUR_TOKEN"
     }
 
-    response = requests.post("https://api.gpt4all.pp.ua/1v/chat/completions", json=data, verify=False)
+    response = requests.post("https://api.gpt4all.pp.ua/v1/chat/completions", json=data, verify=False)
 
     return response.json()
 
@@ -124,7 +124,7 @@ def main():
         "token": "YOUR_TOKEN"
     }
 
-    response = requests.post("https://api.gpt4all.pp.ua/1v/images/generations", json=data, verify=False)
+    response = requests.post("https://api.gpt4all.pp.ua/v1/images/generations", json=data, verify=False)
 
     with open("imageToSave.png", "wb") as f:
         f.write(base64.b64decode(response.json()))
@@ -144,7 +144,7 @@ def main():
         "token": "YOUR_TOKEN"
     }
 
-    response = requests.post("https://api.gpt4all.pp.ua/1v/moderations", json=data, verify=False)
+    response = requests.post("https://api.gpt4all.pp.ua/v1/moderations", json=data, verify=False)
     
     return response.json()
     
