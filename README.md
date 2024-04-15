@@ -45,7 +45,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 These limits are also subject to change
 
 ## Plans
-|**Tier 1 (5$/month)**|**Tier 2 (10$/month)**|**Tier 3 (15$/month)**|
+|**Tier 1 (5$/month)**|**Tier 2 (8$/month)**|**Tier 3 (12$/month)**|
 |-----------------|------------------|------------------|
 |Balance 30$/month|Balance 80$/month |Infinity balance|
 |Access to premium models|Access to premium models|Access to premium models|Unlimited requests
