@@ -8,6 +8,8 @@ To familiarize yourself with the API usage please follow this link
 
 [Docs](https://docs.gpt4all.pp.ua)
 
+[Telegram Channel](https://t.me/gpt4alltg)
+
 [How to receive a token](https://docs.gpt4all.pp.ua/main/receiving-a-api-token)
 
 ## Limits
@@ -27,7 +29,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ***Tier 2 250** requests per minute*
 
-***Tier 3** 550 requests per minute*
+***Tier 3** ulimites requests*
 
 
 **Limit for /v1/image/generations:**
@@ -38,27 +40,16 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ***Tier 2** 230 requests per minute*
 
-***Tier 3** 490 requests per minute*
-
-
-**Limit for /v1/moderations:**
-
-***Free plan** 15 requests per minute*
-
-***Tier 1** 140 requests per minute* 
-
-***Tier 2** 310 requests per minute*
-
-***Tier 3** 650 requests per minute*
+***Tier 3** unlimited requests*
 
 These limits are also subject to change
 
 ## Plans
 |**Tier 1 (5$/month)**|**Tier 2 (10$/month)**|**Tier 3 (15$/month)**|
 |-----------------|------------------|------------------|
-|Balance 30$/month|Balance 80$/month |Balance 150$/month|
-|Access to premium models|Access to premium models|Access to premium models|Access to premium models
-|Lower limits|Lower limits|Lower limits|Lower limits
+|Balance 30$/month|Balance 80$/month |Infinity balance|
+|Access to premium models|Access to premium models|Access to premium models|Unlimited requests
+|Lower limits|Lower limits|Lower limits|Access to premium models
 
 ## Models
 ### OpenAI
@@ -73,8 +64,6 @@ These limits are also subject to change
 - gpt-3.5-turbo-0125
 - gpt-3.5-turbo
 - dall-e-3
-- text-moderation-latest (Free)
-- text-moderation-stable (Free)
 
 ### Open Source
 - gemma-7b-it
@@ -84,71 +73,38 @@ These limits are also subject to change
 ## API Endpoint
 Endpoint
 
-https://api.gpt4all.pp.ua
+https://api.gpt4all.pp.ua/v1
 
 ## Usage
 # Python
 
 Chat Completions
 ``` Python
-import requests
+from openai import OpenAI
 
-def main():
-    data = {
-        "messages": [{"role": "user", "content": "Hello World!"}],
-        "model": "gpt-3.5-turbo",
-        "temperature": 0.7, # Default is 0.7
-        "max_tokens": 1024, # Default is 512
-        "token": "YOUR_TOKEN"
-    }
+client = OpenAI(api_key="YOUR_TOKEN", base_url="https://api.gpt4all.pp.ua/v1")
 
-    response = requests.post("https://api.gpt4all.pp.ua/v1/chat/completions", json=data, verify=False)
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[{"role": "user", "content": "hi"}],
+    stream=False,
+)
 
-    return response.json()
-
-print(main())
+print(response.choices[0].message.content)
 ```
 
 Images Generations
 ``` Python
-import requests
-import base64
+from openai import OpenAI
 
-def main():
+client = OpenAI(api_key="YOUR_TOKEN", base_url="https://api.gpt4all.pp.ua/v1")
 
-    data = {
-        "prompt": "Cat",
-        "model": "dall-e-3",
-        "quality": "hd", # Default standart
-        "format": "base64", # Default url
-        "token": "YOUR_TOKEN"
-    }
+response = client.images.generate(
+    model="dall-e-3",
+    prompt="cat",
+)
 
-    response = requests.post("https://api.gpt4all.pp.ua/v1/images/generations", json=data, verify=False)
-
-    with open("imageToSave.png", "wb") as f:
-        f.write(base64.b64decode(response.json()))
-
-main()
-```
-
-Moderations
-``` Python
-import requests
-
-def main():
-
-    data = {
-        "message": "Hi",
-        "model": "text-moderation-latest",
-        "token": "YOUR_TOKEN"
-    }
-
-    response = requests.post("https://api.gpt4all.pp.ua/v1/moderations", json=data, verify=False)
-    
-    return response.json()
-    
-main()
+print(response)
 ```
 
 ## Links
