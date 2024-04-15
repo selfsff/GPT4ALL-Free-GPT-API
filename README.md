@@ -29,7 +29,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ***Tier 2 250** requests per minute*
 
-***Tier 3** ulimites requests*
+***Tier 3** ulimited requests*
 
 
 **Limit for /v1/image/generations:**
