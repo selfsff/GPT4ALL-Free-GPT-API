@@ -75,8 +75,8 @@ Endpoint
 
 https://api.gpt4all.pp.ua/v1
 
-## Usage
-# Python
+# Usage
+## Python
 
 Chat Completions
 ``` Python
