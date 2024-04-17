@@ -25,9 +25,9 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ***Free plan** 10 requests per minute* 
 
-***Tier 1** 100 requests per minute* 
+***Tier 1** 60 requests per minute* 
 
-***Tier 2 250** requests per minute*
+***Tier 2 120** requests per minute*
 
 ***Tier 3** ulimited requests*
 
@@ -36,9 +36,9 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ***Free plan** 6 requests per minute* 
 
-***Tier 1** 90 requests per minute*
+***Tier 1** 45 requests per minute*
 
-***Tier 2** 230 requests per minute*
+***Tier 2** 100 requests per minute*
 
 ***Tier 3** unlimited requests*
 
