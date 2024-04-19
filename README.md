@@ -69,6 +69,7 @@ These limits are also subject to change
 - gemma-7b-it
 - mixtral-8x7b
 - llama2-70b
+- wizardlm-2-8x22B
 
 ## API Endpoint
 Endpoint
