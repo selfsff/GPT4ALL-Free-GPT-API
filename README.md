@@ -6,11 +6,10 @@
 We provide free access to the GPT-3.5-Turbo, GPT-4, GPT-4-Turbo and many other models.
 To familiarize yourself with the API usage please follow this link
 
-[Docs](https://docs.gpt4all.pp.ua)
-
-[Telegram Channel](https://t.me/gpt4alltg)
-
-[How to receive a token](https://docs.gpt4all.pp.ua/main/receiving-a-api-token)
+> [!IMPORTANT]
+> - [Documentation](https://docs.gpt4all.pp.ua)
+> - [Telegram Channel](https://t.me/gpt4alltg)
+> - [How to receive a token](https://docs.gpt4all.pp.ua/main/receiving-a-api-token)
 
 ## Limits
 
@@ -68,13 +67,14 @@ These limits are also subject to change
 ### Open Source
 - gemma-7b-it
 - mixtral-8x7b
-- llama2-70b
+- llama3-70b
+- llama3-8b
 - wizardlm-2-8x22B
 
 ## API Endpoint
 Endpoint
 
-https://api.gpt4all.pp.ua/v1
+https://api.gpt4-all.xyz/v1
 
 # Usage
 ## Python
@@ -83,7 +83,7 @@ Chat Completions
 ``` Python
 from openai import OpenAI
 
-client = OpenAI(api_key="YOUR_TOKEN", base_url="https://api.gpt4all.pp.ua/v1")
+client = OpenAI(api_key="YOUR_TOKEN", base_url="https://api.gpt4-all.xyz/v1")
 
 response = client.chat.completions.create(
     model="gpt-4",
@@ -98,7 +98,7 @@ Images Generations
 ``` Python
 from openai import OpenAI
 
-client = OpenAI(api_key="YOUR_TOKEN", base_url="https://api.gpt4all.pp.ua/v1")
+client = OpenAI(api_key="YOUR_TOKEN", base_url="https://api.gpt4-all.xyz/v1")
 
 response = client.images.generate(
     model="dall-e-3",
@@ -108,7 +108,7 @@ response = client.images.generate(
 print(response)
 ```
 
-## Links
+## Link
 [Telegram Channel](https://t.me/gpt4alltg)
 
 [Telegram bot](https://t.me/gpt4all_robot)
