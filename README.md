@@ -7,9 +7,9 @@ We provide free access to the GPT-3.5-Turbo, GPT-4, GPT-4-Turbo and many other m
 To familiarize yourself with the API usage please follow this link
 
 > [!IMPORTANT]
-> - [Documentation](https://docs.gpt4all.pp.ua)
+> - [Documentation](https://docs.gpt4-all.xyz)
 > - [Telegram Channel](https://t.me/gpt4alltg)
-> - [How to receive a token](https://docs.gpt4all.pp.ua/main/receiving-a-api-token)
+> - [How to receive a token](https://docs.gpt4-all.xyz/main/receiving-a-api-token)
 
 ## Limits
 
