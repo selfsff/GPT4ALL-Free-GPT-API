@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Free GPT-4 API access
+  # Free GPT-4 API access
 </p>
 
 We provide free access to the GPT-3.5-Turbo, GPT-4, GPT-4-Turbo and many other models.
