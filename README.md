@@ -25,7 +25,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 ## Rate Limits
 **Limit for /v1/chat/completions:**
 
-***Free plan** 10 requests per minute* 
+***Free plan** 8 requests per minute, 80 requests per day* 
 
 ***Tier 1** 60 requests per minute* 
 
@@ -36,7 +36,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 **Limit for /v1/image/generations:**
 
-***Free plan** 6 requests per minute* 
+***Free plan** 5 requests per minute, 50 requests per day* 
 
 ***Tier 1** 45 requests per minute*
 
@@ -49,7 +49,7 @@ These limits are also subject to change
 ## Plans
 |**Tier 1 (5$/month)**|**Tier 2 (8$/month)**|**Tier 3 (12$/month)**|
 |-----------------|------------------|------------------|
-|Balance 30$/month|Balance 80$/month |Infinity balance|
+|Balance 35$/month|Balance 80$/month |Infinity balance|
 |Access to premium models|Access to premium models|Access to premium models|Unlimited requests
 |Lower limits|Lower limits|Lower limits|Access to premium models
 
