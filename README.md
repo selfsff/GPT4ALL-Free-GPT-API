@@ -49,21 +49,17 @@ These limits are also subject to change
 ## Plans
 |**Tier 1 (5$/month)**|**Tier 2 (8$/month)**|**Tier 3 (12$/month)**|
 |-----------------|------------------|------------------|
-|Balance 35$/month|Balance 80$/month |Infinity balance|
+|Balance 20$/month|Balance 40$/month |Infinity balance|
 |Access to premium models|Access to premium models|Access to premium models|Unlimited requests
 |Lower limits|Lower limits|Lower limits|Access to premium models
 
 ## Models
 ### OpenAI
-- gpt-4-vision-preview from tier 1 (in future)
 - gpt-4-0125-preview from tier 1
 - gpt-4-1106-preview
 - gpt-4-32k
 - gpt-4
 - gpt-3.5-turbo-16k
-- gpt-3.5-turbo-0613
-- gpt-3.5-turbo-1106
-- gpt-3.5-turbo-0125
 - gpt-3.5-turbo
 - dall-e-3
 
@@ -73,6 +69,11 @@ These limits are also subject to change
 - llama3-70b
 - llama3-8b
 - wizardlm-2-8x22B
+- mixtral-8x22b
+- zephyr-orpo-141b
+- lzlv_70b
+- yi-34b
+- sdxl
 
 ## API Endpoint
 Endpoint
