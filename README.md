@@ -25,7 +25,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 ## Rate Limits
 **Limit for /v1/chat/completions:**
 
-***Free plan** 8 requests per minute, 80 requests per day* 
+***Free plan** 15 requests per minute, 200 requests per day* 
 
 ***Tier 1** 60 requests per minute* 
 
@@ -36,7 +36,7 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 **Limit for /v1/image/generations:**
 
-***Free plan** 5 requests per minute, 50 requests per day* 
+***Free plan** 8 requests per minute, 60 requests per day* 
 
 ***Tier 1** 45 requests per minute*
 
@@ -55,7 +55,6 @@ These limits are also subject to change
 
 ## Models
 ### OpenAI
-- gpt-4-0125-preview from tier 1
 - gpt-4-1106-preview
 - gpt-4-32k
 - gpt-4
