@@ -53,6 +53,11 @@ These limits are also subject to change
 |Access to premium models|Access to premium models|Access to premium models|Unlimited requests
 |Lower limits|Lower limits|Lower limits|Access to premium models
 
+## If you buy a tariff from 3 months, there will be a discount:
+- Tier 1 - 4$ for 1 month (for 3 months 12$ instead of 15$)
+- Tier 2 - 7$ for 1 month (for 3 months 21$ instead of 24$)
+- Tier 3 - 10$ for 1 month (for 3 months 30$ instead of 36$)
+
 ## Models
 ### OpenAI
 - gpt-4o (premium)
@@ -72,9 +77,7 @@ These limits are also subject to change
 - llama3-8b
 - wizardlm-2-8x22B
 - mixtral-8x22b
-- zephyr-orpo-141b
-- lzlv_70b
-- yi-34b
+- lzlv-70b
 - sdxl
 
 ## API Endpoint
