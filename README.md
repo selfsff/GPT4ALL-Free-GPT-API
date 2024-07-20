@@ -27,36 +27,39 @@ You can also buy tariffs, with which you will have access to limited models, as 
 
 ***Free plan** 15 requests per minute, 200 requests per day* 
 
-***Tier 1** 50 requests per minute* 
+***Tier 1** 50 requests per minute, 800 per day* 
 
-***Tier 2 80** requests per minute*
+***Tier 2** 80 requests per minute, 1300 per day*
 
-***Tier 3** ulimited requests*
+***Tier 3** 2500 requests per day*
+
+***Tier 4** 4200 requests per day*
+
+***Tier 5** 7500 requests per day*
+
+***Tier 6** 12000 requests per day*
 
 
 **Limit for /v1/image/generations:**
 
 ***Free plan** 8 requests per minute, 60 requests per day* 
 
-***Tier 1** 30 requests per minute*
+***Tier 1** 30 requests per minute, 120 per day* 
 
-***Tier 2** 60 requests per minute*
+***Tier 2** 60 requests per minute, 160 per day*
 
-***Tier 3** unlimited requests*
+***Tier 3** 350 requests per day*
+
+***Tier 4** 350 requests per day*
+
+***Tier 5** 350 requests per day*
+
+***Tier 6** 350 requests per day*
 
 These limits are also subject to change
 
 ## Plans
-|**Tier 1 (5$/month)**|**Tier 2 (8$/month)**|**Tier 3 (12$/month)**|
-|-----------------|------------------|------------------|
-|Balance 20$/month|Balance 40$/month |Infinity balance|
-|Access to premium models|Access to premium models|Access to premium models|Unlimited requests
-|Lower limits|Lower limits|Lower limits|Access to premium models
-
-## If you buy a tariff from 3 months, there will be a discount:
-- Tier 1 - 4$ for 1 month (for 3 months 12$ instead of 15$)
-- Tier 2 - 7$ for 1 month (for 3 months 21$ instead of 24$)
-- Tier 3 - 10$ for 1 month (for 3 months 30$ instead of 36$)
+*detailed description of tariffs is written in the documentation*
 
 ## Models
 ### OpenAI
