@@ -63,12 +63,12 @@ These limits are also subject to change
 
 ## Models
 ### OpenAI
+- chatgpt-4o-latest (premium)
 - gpt-4o (premium)
 - gpt-4o-mini (premium)
 - gpt-4-turbo (premium)
 - gpt-4-0125-preview (premium)
 - gpt-4-1106-preview
-- gpt-4-32k
 - gpt-4
 - gpt-3.5-turbo-16k
 - gpt-3.5-turbo
