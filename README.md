@@ -63,20 +63,15 @@ These limits are also subject to change
 
 ## Models
 ### OpenAI
-- chatgpt-4o-latest (premium)
+- o1-preview (premium)
+- o1-mini (premium)
 - gpt-4o (premium)
-- gpt-4o-mini (premium)
-- gpt-4-turbo (premium)
-- gpt-4-0125-preview (premium)
-- gpt-4-1106-preview
+- gpt-4o-mini
 - gpt-4
-- gpt-3.5-turbo-16k
 - gpt-3.5-turbo
 - dall-e-3
 
 ### Open Source
-- gemma-7b-it
-- mixtral-8x7b
 - llama3-70b
 - llama3-8b
 - wizardlm-2-8x22B
@@ -99,7 +94,7 @@ from openai import OpenAI
 client = OpenAI(api_key="YOUR_TOKEN", base_url="https://api.gpt4-all.xyz/v1")
 
 response = client.chat.completions.create(
-    model="gpt-4-1106-preview",
+    model="gpt-4o-mini",
     messages=[{"role": "user", "content": "hi"}],
     stream=False,
 )
