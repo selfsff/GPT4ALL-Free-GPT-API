@@ -72,12 +72,12 @@ These limits are also subject to change
 - dall-e-3
 
 ### Open Source
-- llama3-70b
-- llama3-8b
+- llama-3.1-405b
+- llama-3.1-70b
+- llama-3-70b
+- llama-3-8b
 - wizardlm-2-8x22B
 - mixtral-8x22b
-- lzlv-70b
-- sdxl
 
 ## API Endpoint
 Endpoint
